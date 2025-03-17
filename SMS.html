@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+
+    <div>
+        <h2>Add Student</h2>
+        <!-- This is just a form to collect data but doesn't process it since no JavaScript is used -->
+        <form action="#">
+            <label for="name">Student Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter student's name"><br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" placeholder="Enter student's age"><br><br>
+
+            <label for="grade">Grade:</label><br>
+            <select id="grade" name="grade">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+            </select><br><br>
+
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Student List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</body>
+</html>
+
